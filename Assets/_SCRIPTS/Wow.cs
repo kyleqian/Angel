@@ -40,6 +40,6 @@ public class Wow : MonoBehaviour
         prevPos_ = pos;
 
         chuck_.SetFloat("bowIntensity", integrator_);
-        chuck_.SetFloat("thePitch", 24 + 24 * distanceFromMe);
+        chuck_.SetFloat("thePitch", 60 + 24 * distanceFromMe);
     }
 }
